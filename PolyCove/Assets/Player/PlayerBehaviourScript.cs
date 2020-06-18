@@ -73,6 +73,7 @@ public class PlayerBehaviourScript : MonoBehaviour
         if ((Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A)) && !(Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W)) && !(Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S)))
         {
             this.animator.SetBool("leftTurn", true);
+            this.transform.Rotate(0.0f, -100 * Time.deltaTime, 0.0f);
         }
         else
         {
@@ -83,6 +84,7 @@ public class PlayerBehaviourScript : MonoBehaviour
         if ((Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D)) && !(Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W)) && !(Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S)))
         {
             this.animator.SetBool("rightTurn", true);
+            this.transform.Rotate(0.0f, 100 * Time.deltaTime, 0.0f);
         }
         else
         {

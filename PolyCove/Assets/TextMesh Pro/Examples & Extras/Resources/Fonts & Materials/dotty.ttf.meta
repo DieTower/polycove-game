@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: ce645201a1538d946afc379f06ded0e1
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: dotty
+  fontNames:
+  - dotty
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 7f9725c332bf8484dbb278be07d91eba, type: 3}
+  - {fileID: 12800000, guid: 7cedd9d7199193340beec44e42b6ce39, type: 3}
+  - {fileID: 12800000, guid: a67243484dba08343849c09f813c4691, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

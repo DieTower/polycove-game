@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: a04813343aed02f4fbcfd982a6fd7ea1
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Subway Ticker
+  fontNames:
+  - Subway Ticker
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 03a524e64667c5a419b6f7ea4fbd75a1, type: 3}
+  - {fileID: 12800000, guid: 5aeb569a7e244f44b9a68c235d713c1b, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
